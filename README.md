@@ -11,8 +11,7 @@ game, and the server never binds to the network.
 
 ## Install
 
-1. **Mod** — install the *hud-stream* [Isaac mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3818833227) from the Steam Workshop
-   (or search "hud-stream" in the Workshop for The Binding of Isaac: Rebirth).
+1. **Mod** — install the *hud-stream* [Isaac mod](https://steamcommunity.com/sharedfiles/filedetails/?id=3818833227) from the Steam Workshop. 
 2. **Launch options** — enable `--luadebug`: Steam → right-click the game →
    Properties → Launch Options → `--luadebug`. Without it the mod cannot
    start its server and shows a yellow warning instead.
