@@ -1,0 +1,20 @@
+/* Fill the viewport so absolutely-positioned HUD elements (bottom dock)
+   anchor to the real screen edge, not the content-height root div */
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background: #000;
+}
+
+/* Force pixelated rendering for all images.
+   Order matters: the LAST supported declaration wins, and Chromium's
+   crisp-edges is low-quality SMOOTHING (not NN like Firefox's) — so
+   pixelated must come last. crisp-edges stays as a fallback for engines
+   that don't know pixelated. */
+img {
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
